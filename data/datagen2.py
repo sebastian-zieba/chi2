@@ -3,7 +3,8 @@ import matplotlib.pyplot as plt
 
 #y = kx + d
 
-k = 1.234
+kk = 1.234
+k = 'hhh'
 d = -43.21
 
 x = np.linspace(-100,100,100)
