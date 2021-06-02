@@ -3,12 +3,12 @@ import matplotlib.pyplot as plt
 
 #y = kx + d
 
-kk = 1.234
-k = 'hhh'
-d = -43.21
+#kk = 1.234
+#k = 'hhh'
+#d = -43.21
 
-x = np.linspace(-100,100,100)
-y = k * x + d + np.random.randn(len(x))
+x = [1,2,3]#np.linspace(-100,100,100)
+y = x#k * x + d - np.random.randn(len(x))
 y_err = [1]*len(x)
 plt.scatter(x,y, s=1)
 plt.plot(x, k*x+d, c='r')
